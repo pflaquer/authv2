@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<head>
+  <title>Busk-It | Maps Container</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="styles.css">
+ 
+</head>
+<body>
+
+<!--<div id="top" >
+  <center><a id="broadcast" onclick="broadcast()">
+    <center>
+    <div class="pulse" id="pulse"><i class="fa-solid fa-location-dot" style="color:white;filter:drop-shadow(7px 5px 2px black);font-size:30px;" aria-hidden="true"></i></div>
+
+    </center>
+    
+    
+    
+  </a></div></center>-->
+
+<div id="view">
+<div id="mapa">
+	
+	
+	<div id="map"></div>
+</div>
+</div>
+
+  
+  <nav action="">
+    <ul>
+      <li class="navitem"><i class="fa-solid fa-house navs" onclick="handleClick(this.key)" key="Home"></i></li>
+      <li class="navitem"><i class="fa-solid fa-magnifying-glass navs" onclick="handleClick(load)"></i></li>
+      <li><i class="fa-solid fa-location-dot navs" id="pulse"></i>
+      
+      <li><i class="fa-solid fa-right-from-bracket navs" onclick="handleClick(load)"></i></li>
+    </ul>
+   
+  </nav>
+  
+  
+
+
+	
+  <script src="main.js"></script>
+ <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDrfXPptz9MDwanCiLa-YzfsG5hmNAaJxI&callback=initMap">
+    </script>
+  <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js" integrity="sha512-GWzVrcGlo0TxTRvz9ttioyYJ+Wwk9Ck0G81D+eO63BaqHaJ3YZX9wuqjwgfcV/MrB2PhaVX9DkYVhbFpStnqpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  
+  </body>
+  
+</html>
